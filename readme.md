@@ -13,8 +13,8 @@ This plugin is made to add a new post type feature with the title of book to Wor
     - Book ISBN
     - Author Name
 - **Register_Books_Post_Type:** to register "book" post type and also following taxonomies:
-    - Author: to categorize using book author.
-    - Genre: to categorize using book genre.
+    - **Author:** to categorize using book author.
+    - **Genre:** to categorize using book genre.
 
 ### Templates
 - **Book single page template file** (inside templates folder).
