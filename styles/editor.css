@@ -1,0 +1,56 @@
+/* styles for the editor */
+
+:root {
+  --dark-gray: #222222;
+  --low-gray: #e2e2e2;
+}
+
+.book-mata-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-mata-box div:first-child {
+  flex: 0 0 48.5%;
+}
+
+.book-meta-image {
+  width: 100%;
+  padding-top: 25%;
+  background-image: url("../images/books.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.book-mata-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.book-mata-field {
+  margin-bottom: 10px;
+}
+
+.book-mata-field input {
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  appearance: none;
+  -ms-progress-appearance: none;
+  border: 1px solid var(--low-gray);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .book-mata-box {
+    display: block;
+  }
+  .book-meta-image {
+    display: none;
+  }
+}
